@@ -2,6 +2,8 @@
   become: true
   gather_facts: false
   tasks:
-    - name: install htop
+    - name: install packages
       apt:
-        name: htop
+        name:
+          - htop
+          - nmap
