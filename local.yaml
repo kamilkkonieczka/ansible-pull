@@ -6,4 +6,4 @@
       apt:
         name:
           - htop
-          - nmap
+          # - nmap
